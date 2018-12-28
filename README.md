@@ -34,13 +34,15 @@ Vuex.Store is a collection of different modules
 import vue from "vue"
 import App from './App'
 import store from './store'
-
+```
+Connect the store to the vue instance in the main.js file
+```
 new vue ({
     store,
     render : h => h(App)
 }).$mount('#app')
 ```
-Connect the store to the vue instance in the main.js file
+
 
 ## Project setup
 ```
