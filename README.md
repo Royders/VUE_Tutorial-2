@@ -67,7 +67,7 @@ export default {
 }
 </script>
 ```
-###Vue Router
+### Vue Router
 
 #### Initialize Vue Router
 
