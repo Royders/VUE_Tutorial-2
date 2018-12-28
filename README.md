@@ -14,7 +14,7 @@ API: https://api.imgur.com/
 - actions:    functions to combine mutations
 
 #### Vuex Store
-
+Vuex.Store is a collection of different modules
 ```
 import Vuex from 'vuex'
 import Vue from 'vue'
@@ -28,15 +28,17 @@ export default new Vuex.Store({
 
 })
 ```
-Vuex.Store is a collection of different modules
+
+
+Connect the store to the vue instance in the main.js file
 
 ```
 import vue from "vue"
 import App from './App'
 import store from './store'
-```
-Connect the store to the vue instance in the main.js file
-```
+
+
+
 new vue ({
     store,
     render : h => h(App)
