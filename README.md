@@ -72,8 +72,38 @@ export default {
 #### Initialize Vue Router
 
 1. Create a vue router instance and tell it about all routes that exist in the app
+```
+const router = new VueRouter({
+    // browser router mode
+    mode: 'history',
+    routes: [
+        {
+            path: '/oauth2/callback',
+            component: AuthHandler
+        }
+    ]
+})
+```
 2. Tell the vue instance that the router exists
+```
+new vue ({
+    router,
+    store,
+    render : h => h(App)
+}).$mount('#app')
+
+```
 3. Tell vue router where to put a component when it matches a route
+```
+<template>
+    <div>
+        <AppHeader></AppHeader>
+        <router-view></router-view>
+    </div>
+</template>
+```
+
+
 
 
 ## Project setup
