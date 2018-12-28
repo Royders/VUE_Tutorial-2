@@ -1,5 +1,9 @@
 # meme-saver
 
+### Setup
+
+CSS Styling: https://semantic-ui.com/
+
 ## Project setup
 ```
 npm install
