@@ -30,6 +30,18 @@ export default new Vuex.Store({
 ```
 Vuex.Store is a collection of different modules
 
+```
+import vue from "vue"
+import App from './App'
+import store from './store'
+
+new vue ({
+    store,
+    render : h => h(App)
+}).$mount('#app')
+```
+Connect the store to the vue instance in the main.js file
+
 ## Project setup
 ```
 npm install
