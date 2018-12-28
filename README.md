@@ -54,7 +54,7 @@ actions
 mutations
 ```
 #### Use an actions inside an vue component
-Use the helper function `mapActions` to connect actions to an actual component. By using the spread operator `...` it will be added to the methods object and can be used be the name provided in the array.
+Use the helper function `mapActions` to connect actions in an actual component. By using the spread operator `...` it will be added to the methods object and can be used be the name provided in the array.
 ```
 <script>
 import { mapActions } from 'vuex'
