@@ -3,6 +3,7 @@
 ### Setup
 
 CSS Styling: https://semantic-ui.com/
+
 API: https://api.imgur.com/
 
 ## Project setup
