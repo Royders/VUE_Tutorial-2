@@ -44,6 +44,15 @@ new vue ({
     render : h => h(App)
 }).$mount('#app')
 ```
+#### Pattern for vuex modules
+
+4 Objects
+```
+state
+getters
+actions
+mutations
+```
 
 
 ## Project setup
