@@ -67,6 +67,13 @@ export default {
 }
 </script>
 ```
+###Vue Router
+
+#### Initialize Vue Router
+
+1. Create a vue router instance and tell it about all routes that exist in the app
+2. Tell the vue instance that the router exists
+3. Tell vue router where to put a component when it matches a route
 
 
 ## Project setup
